@@ -1,9 +1,7 @@
 import { createChatBotMessage } from 'react-chatbot-kit';
 import Avatar from './components/Avatar';
 import StartBtn from './components/StartBtn';
-import StartSlow from './components/StartSlow';
 import data from './data';
-import DipslayImage from './components/DipslayImage';
 
 
 const config = {
