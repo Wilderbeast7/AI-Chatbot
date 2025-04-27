@@ -7,8 +7,8 @@ import DipslayImage from './components/DipslayImage';
 
 
 const config = {
-    botName: "AgeDrive Explorer",
-    initialMessages: [createChatBotMessage(`Welcome to RideAge Advisor!`, {
+    botName: "AI Assistant",
+    initialMessages: [createChatBotMessage(`Welcome to Mindcrafters`, {
         widget: "startBtn"
     })],
     customComponents: {
@@ -33,14 +33,7 @@ const config = {
             widgetName: "startBtn",
             widgetFunc: (props) => <StartBtn {...props} />,
         },
-        {
-            widgetName: "startSlow",
-            widgetFunc: (props) => <StartSlow {...props} />,
-        },
-        {
-            widgetName: "finalImage",
-            widgetFunc: (props) => <DipslayImage {...props} />,
-        },
+        
     ]
 };
 
