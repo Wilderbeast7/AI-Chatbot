@@ -9,9 +9,18 @@
     "react": "^18.2.0",
     "react-chatbot-kit": "^2.1.2",
     "react-dom": "^18.2.0",
+    "@rollup/plugin-terser": "^0.4.4",
     "react-scripts": "^5.0.1",
     "web-vitals": "^2.1.4"
   },
+  "devDependencies": {
+  "@babel/plugin-transform-private-methods": "^7.0.0",
+  "@babel/plugin-transform-class-properties": "^7.0.0",
+  "@babel/plugin-transform-optional-chaining": "^7.0.0",
+  "svgo": "^2.0.0",
+  "eslint": "^8.0.0"
+  
+},
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
